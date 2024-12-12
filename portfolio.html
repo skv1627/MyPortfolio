@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Swarna Kumar Vusa | Portfolio</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+        }
+
+        .navbar-brand {
+            font-weight: bold;
+        }
+
+        header {
+            background: linear-gradient(to right, #007bff, #6610f2);
+        }
+
+        header h1 {
+            font-size: 3rem;
+            margin-bottom: 1rem;
+        }
+
+        .list-group-item a {
+            color: #007bff;
+            text-decoration: none;
+        }
+
+        .list-group-item a:hover {
+            text-decoration: underline;
+        }
+
+        footer {
+            background-color: #343a40;
+            color: white;
+            padding: 1rem 0;
+        }
+
+        section {
+            margin-bottom: 2rem;
+        }
+
+        .accordion-button {
+            font-weight: bold;
+        }
+
+        .text-center h2 {
+            font-weight: bold;
+        }
+
+        .btn-back-to-top {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            display: none;
+            background: #007bff;
+            color: white;
+            border: none;
+            border-radius: 50%;
+            width: 50px;
+            height: 50px;
+            font-size: 20px;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Swarna Kumar Vusa</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#experience">Experience</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#education">Education</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#achievements">Achievements</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#certifications">Certifications</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <header class="bg-primary text-white text-center py-5">
+        <div class="container">
+            <h1>Welcome to My Portfolio</h1>
+            <p>Innovative Solutions | Creative Designs | Passion for Excellence</p>
+        </div>
+    </header>
+
+    <section id="about" class="py-5">
+        <div class="container">
+            <h2 class="text-center">About Me</h2>
+            <p class="text-center">I am Swarna Kumar Vusa, a passionate software engineer with expertise in multiple programming languages, frameworks, and cloud technologies. With a proven track record of delivering innovative projects, I aim to make an impactful contribution in the tech industry.</p>
+        </div>
+    </section>
+
+    <section id="skills" class="bg-light py-5">
+        <div class="container">
+            <h2 class="text-center">Skills</h2>
+            <ul class="list-group">
+                <li class="list-group-item">Languages: HTML, CSS, JavaScript, TypeScript, Java, Python, C, C++</li>
+                <li class="list-group-item">Frameworks: React, Angular, Vue, Spring Boot</li>
+                <li class="list-group-item">Databases: MySQL, PostgreSQL, Oracle, MongoDB</li>
+                <li class="list-group-item">Cloud: AWS (EC2, S3, RDS, Lambda)</li>
+                <li class="list-group-item">Other Tools: Docker, Kubernetes, Selenium</li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="experience" class="py-5">
+        <div class="container">
+            <h2 class="text-center">Professional Experience</h2>
+            <div class="accordion" id="experienceAccordion">
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingOne">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                            Program Analyst, Cognizant Technology Solutions (2021 - 2022)
+                        </button>
+                    </h2>
+                    <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#experienceAccordion">
+                        <div class="accordion-body">
+                            <ul>
+                                <li>Designed and developed web services and rule sets.</li>
+                                <li>Improved functionality using Java in Eclipse IDE.</li>
+                                <li>Reduced reporting errors by 20% through optimized SQL queries.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingTwo">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                            Intern, Cognizant Technology Solutions (2021)
+                        </button>
+                    </h2>
+                    <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#experienceAccordion">
+                        <div class="accordion-body">
+                            <ul>
+                                <li>Enhanced test efficiency by 30% using TestNG with Selenium.</li>
+                                <li>Developed cross-browser test scripts in Java.</li>
+                                <li>Reduced manual testing time by 40% using Jenkins automation.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="bg-light py-5">
+        <div class="container">
+            <h2 class="text-center">Projects</h2>
+            <ul class="list-group">
+                <li class="list-group-item"><a href="https://github.com/yourusername/defi-platform" target="_blank">Decentralized Finance Platform</a> - React, Web3.js, Solidity</li>
+                <li class="list-group-item"><a href="https://github.com/yourusername/online-banking" target="_blank">Online Banking System</a> - Java, Hibernate, MySQL</li>
+                <li class="list-group-item"><a href="https://github.com/yourusername/lms" target="_blank">Learning Management System</a> - Java Spring Boot, PostgreSQL</li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="education" class="py-5">
+        <div class="container">
+            <h2 class="text-center">Education</h2>
+            <ul class="list-group">
+                <li class="list-group-item">Master of Science: Computer Science, University of Missouri - Kansas City (GPA: 3.76)</li>
+                <li class="list-group-item">Bachelor of Science: Electronics and Communication Engineering, Karunya Institute of Technology (GPA: 3.46)</li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="achievements" class="bg-light py-5">
+        <div class="container">
+            <h2 class="text-center">Achievements</h2>
+            <ul class="list-group">
+                <li class="list-group-item">Top 5 Finalist in University Hackathon</li>
+                <li class="list-group-item">State-level Best Inter-School Project Award</li>
+                <li class="list-group-item">Pratibha Award for Excellence</li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="certifications" class="py-5">
+        <div class="container">
+            <h2 class="text-center">Certifications</h2>
+            <ul class="list-group">
+                <li class="list-group-item"><a href="https://www.credly.com/badges/1b284308-4723-4356-abe2-46b458fd996e/linked_in_profile" target="_blank">AWS Cloud Practitioner</a></li>
+                <li class="list-group-item"><a href="https://aws.amazon.com/certification/certified-solutions-architect-associate/" target="_blank">AWS Solution Architect</a></li>
+            </ul>
+        </div>
+    </section>
+
+    <button class="btn-back-to-top" id="btnTop">&uarr;</button>
+
+    <footer class="bg-dark text-white text-center py-3">
+        <p>&copy; 2024 Swarna Kumar Vusa. All Rights Reserved.</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        // Scroll to top button
+        const btnTop = document.getElementById('btnTop');
+
+        window.onscroll = function() {
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                btnTop.style.display = "block";
+            } else {
+                btnTop.style.display = "none";
+            }
+        };
+
+        btnTop.addEventListener('click', function() {
+            document.body.scrollTop = 0;
+            document.documentElement.scrollTop = 0;
+        });
+    </script>
+</body>
+</html>
